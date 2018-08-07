@@ -8,6 +8,7 @@ def simple_curfew_checker(time)
 end
 
 simple_curfew_checker(11)
+simple_curfew_checker(12)
 
 
 def curfew_checker(time)
