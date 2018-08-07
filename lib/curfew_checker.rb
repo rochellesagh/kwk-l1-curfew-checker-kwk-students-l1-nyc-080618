@@ -47,11 +47,11 @@ def deluxe_curfew_checker(time)
       puts "You have 2 hour(s) left to keep having fun!"
   end
 end
-deluxe_curfew_checker(9)
+# deluxe_curfew_checker(9)
 
-def platinum_curfew_checker(current_time, curfew_time)
-if time == 11
-  puts "Time to apparate!"
-  end 
-  platinum_curfew_checker(11,11)
-end
+# def platinum_curfew_checker(current_time, curfew_time)
+# if time == 11
+#   puts "Time to apparate!"
+#   end 
+#   platinum_curfew_checker(11,11)
+# end
