@@ -20,6 +20,7 @@ def curfew_checker(time)
   end
 end 
 curfew_checker(10)
+curfew_checker(11)
 
 def complex_curfew_checker(time)
   if time == 11
