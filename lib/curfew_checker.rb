@@ -39,7 +39,7 @@ def deluxe_curfew_checker(time)
     return "You're in trouble! Better get home quick!"
   end 
   if time = 9
-    return  ""
+    return  "You have 2 hour(s) left to keep having fun!"
   end
 end
 
