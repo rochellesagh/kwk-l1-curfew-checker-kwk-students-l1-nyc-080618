@@ -14,68 +14,68 @@ describe "#simple_curfew_checker" do
   end
 end
 
-describe "#curfew_checker" do
+# describe "#curfew_checker" do
 
 
-  it "should say you're in trouble if it's 11" do 
-    expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
+#   it "should say you're in trouble if it's 11" do 
+#     expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
     
-  end
+#   end
 
-  it "should say you're in trouble if it's later than 11" do 
-    expect(curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
-  end
+#   it "should say you're in trouble if it's later than 11" do 
+#     expect(curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
+#   end
 
-  it "should say you can keep having fun" do 
-    expect(curfew_checker(9)).to eq("Keep having fun!")
-  end
-end
+#   it "should say you can keep having fun" do 
+#     expect(curfew_checker(9)).to eq("Keep having fun!")
+#   end
+# end
 
-describe "#complex_curfew_checker" do
+# describe "#complex_curfew_checker" do
 
-  it "should say you're in trouble if it's 11" do 
-    expect(complex_curfew_checker(11)).to eq("Time to apparate!")
+#   it "should say you're in trouble if it's 11" do 
+#     expect(complex_curfew_checker(11)).to eq("Time to apparate!")
 
-  end
+#   end
 
-  it "should say you're in trouble if it's later than 11" do 
-    expect(complex_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
-  end
+#   it "should say you're in trouble if it's later than 11" do 
+#     expect(complex_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
+#   end
 
-  it "should say you can keep having fun" do 
-    expect(complex_curfew_checker(9)).to eq("Keep having fun!")
+#   it "should say you can keep having fun" do 
+#     expect(complex_curfew_checker(9)).to eq("Keep having fun!")
 
-  end
-end
+#   end
+# end
 
-describe "#deluxe_curfew_checker" do 
+# describe "#deluxe_curfew_checker" do 
 
-  it "should say Time to apparate" do 
-    expect(deluxe_curfew_checker(11)).to eq("Time to apparate!")
+#   it "should say Time to apparate" do 
+#     expect(deluxe_curfew_checker(11)).to eq("Time to apparate!")
     
-  end
+#   end
 
-  it "should say you're in trouble if it's later than 11" do 
-    expect(deluxe_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
-  end
+#   it "should say you're in trouble if it's later than 11" do 
+#     expect(deluxe_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
+#   end
 
-  it "should say you can keep having fun with the time you have left" do 
-    expect(deluxe_curfew_checker(9)).to eq("You have 2 hour(s) left to keep having fun!")
-  end
-end
+#   it "should say you can keep having fun with the time you have left" do 
+#     expect(deluxe_curfew_checker(9)).to eq("You have 2 hour(s) left to keep having fun!")
+#   end
+# end
 
-describe "#platinum_curfew_checker" do 
+# describe "#platinum_curfew_checker" do 
 
-  it "should say you're in trouble if it's 11 and curfew is at 11" do 
-    expect(platinum_curfew_checker(11, 11)).to eq("Time to apparate!")
-  end
+#   it "should say you're in trouble if it's 11 and curfew is at 11" do 
+#     expect(platinum_curfew_checker(11, 11)).to eq("Time to apparate!")
+#   end
 
-  it "should say you're in trouble if it's later than 11, which is your curfew" do 
-    expect(platinum_curfew_checker(12, 11)).to eq ("You're in trouble! Better get back to Hogwarts quick!")
+#   it "should say you're in trouble if it's later than 11, which is your curfew" do 
+#     expect(platinum_curfew_checker(12, 11)).to eq ("You're in trouble! Better get back to Hogwarts quick!")
 
-  end
+#   end
 
-  it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left" do 
-    expect(platinum_curfew_checker(9, 11)).to eq ("You have 2 hour(s) left to keep having fun!")
-  end
-end
+#   it "should say you can keep having if curfew is 11 and time is 9 and say there are 2 hrs left" do 
+#     expect(platinum_curfew_checker(9, 11)).to eq ("You have 2 hour(s) left to keep having fun!")
+#   end
+# end
