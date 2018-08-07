@@ -21,10 +21,14 @@ end
 
 def complex_curfew_checker(time)
   if time = 11
-    return "Time to apparate"
+    return "Time to apparate!"
   end 
   if time > 11
-    return
+    return "You're in trouble! Better get home quick!"
+  end
+  if time < 11
+    return "Keep having fun!"
+  end 
 end
 
 def deluxe_curfew_checker(time)
