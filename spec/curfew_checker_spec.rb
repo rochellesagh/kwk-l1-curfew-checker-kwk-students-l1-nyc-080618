@@ -14,22 +14,22 @@ describe "#simple_curfew_checker" do
   end
 end
 
-# describe "#curfew_checker" do
+describe "#curfew_checker" do
 
 
-#   it "should say you're in trouble if it's 11" do 
-#     expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
+  it "should say you're in trouble if it's 11" do 
+    expect(curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
     
-#   end
+  end
 
-#   it "should say you're in trouble if it's later than 11" do 
-#     expect(curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
-#   end
+  it "should say you're in trouble if it's later than 11" do 
+    expect(curfew_checker(12)).to eq("You're in trouble! Better get home quick!")
+  end
 
-#   it "should say you can keep having fun" do 
-#     expect(curfew_checker(9)).to eq("Keep having fun!")
-#   end
-# end
+  it "should say you can keep having fun" do 
+    expect(curfew_checker(9)).to eq("Keep having fun!")
+  end
+end
 
 # describe "#complex_curfew_checker" do
 
