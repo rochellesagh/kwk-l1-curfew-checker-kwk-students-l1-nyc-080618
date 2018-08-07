@@ -12,19 +12,20 @@ simple_curfew_checker(11)
 
 def curfew_checker(time)
   if time >= 11
-    return "You're in trouble! Better get home quick!"
+    puts "You're in trouble! Better get home quick!"
   end
   if time < 11 
-    return "Keep having fun!"
+    puts "Keep having fun!"
   end
 end 
+curfew_checker(10)
 
 def complex_curfew_checker(time)
   if time == 11
-    return "Time to apparate!"
+    puts "Time to apparate!"
   end 
   if time > 11
-    return "You're in trouble! Better get home quick!"
+    puts "You're in trouble! Better get home quick!"
   end
   if time < 11
     return "Keep having fun!"
@@ -33,13 +34,13 @@ end
 
 def deluxe_curfew_checker(time)
     if time == 11
-    return "Time to apparate!"
+    puts "Time to apparate!"
   end 
   if time > 11
-    return "You're in trouble! Better get home quick!"
+    puts "You're in trouble! Better get home quick!"
   end 
   if time == 9
-    return  "You have 2 hour(s) left to keep having fun!"
+      puts "You have 2 hour(s) left to keep having fun!"
   end
 end
 
