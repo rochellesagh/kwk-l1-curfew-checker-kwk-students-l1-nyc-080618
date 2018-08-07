@@ -31,6 +31,7 @@ def complex_curfew_checker(time)
     return "Keep having fun!"
   end 
 end
+complex_curfew_checker(11)
 
 def deluxe_curfew_checker(time)
     if time == 11
